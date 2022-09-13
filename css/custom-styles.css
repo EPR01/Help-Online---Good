@@ -1,0 +1,57 @@
+ .sidebar {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 100;
+   transition: height 0s;
+   padding-top: 50px;
+ }
+
+ @media (max-width: 767.98px) {
+   .sidebar {
+     top: 7rem;
+   }
+ }
+
+ .sidebar-sticky {
+   height: calc(100vh - 48px);
+   overflow-x: hidden;
+   overflow-y: auto;
+ }
+
+ .navbar .navbar-toggler {
+   top: .60rem;
+   right: .60rem;
+ }
+
+ @media (max-width: 767.98px) {
+   .container-fluid {
+     margin-bottom: 12px;
+   }
+
+   .mtb-auto {
+     margin-top: 0.60rem;
+     margin-bottom: 0.60rem;
+   }
+ }
+
+ .bg-success-light {
+   background-color: #f8f9fa;
+ }
+
+ .bg-white {
+   background-color: white;
+ }
+
+ .bg-danger-light {
+   background-color: rgb(255, 240, 240);
+ }
+
+ .bg-success-light {
+   background-color: #D7F8D7;
+ }
+
+ .bg-white {
+   background-color: white;
+ }
