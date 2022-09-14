@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-MX">
 
 <head>
     <meta charset="utf-8">
@@ -68,8 +68,7 @@
         <div class="row">
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light shadow sidebar collapse">
                 <div class="d-grid gap-2 p-3 ">
-                    <a class="btn btn-success" data-bs-toggle="modal" data-bs-target="#nuevoTicketModal">Nuevo
-                        Ticket</a>
+                    <a class="btn btn-success" href="./Index.html">Volver</a>
                 </div>
             </nav>
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-">
@@ -83,86 +82,65 @@
                         </div>
                     </div>
                 </div>
-                <div class="contaier table-responsive">
-                    <table class="table text-center table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col"># Ticket</th>
-                                <th scope="col">Abierto Por</th>
-                                <th scope="col">Fecha de Apertura</th>
-                                <th scope="col">Estatus Ticket</th>
-                                <th scope="col" style="width: 500px;">Falla</th>
-                                <th scope="col">Detalles</th>
-                                <th scope="col">Asignado</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>
-                                    Tania <span class="bg-success-light p-1 fst-italic rounded-pill">@tania21</span>
-                                </td>
-                                <td>01/10/2022 01:30 p.m</td>
-                                <td><span class="text-uppercase">abierto</span></td>
-                                <td>
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum illum earum
-                                        aliquid.
-                                    </p>
-                                </td>
-                                <td>
-                                    <a class="btn btn-success"
-                                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Ver</a>
-                                </td>
-                                <td>
-                                    Edgar <span class="bg-success-light p-1 fst-italic rounded-pill">@eprimero</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>
-                                    Tania <span class="bg-success-light p-1 fst-italic rounded-pill">@tania21</span>
-                                </td>
-                                <td>01/10/2022 01:30 p.m</td>
-                                <td><span class="text-uppercase">abierto</span></td>
-                                <td>
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum illum earum
-                                        aliquid.
-                                    </p>
-                                </td>
-                                <td>
-                                    <a class="btn btn-success"
-                                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Ver</a>
-                                </td>
-                                <td>
-                                    Edgar <span class="bg-success-light p-1 fst-italic rounded-pill">@eprimero</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>
-                                    Tania <span class="bg-success-light p-1 fst-italic rounded-pill">@tania21</span>
-                                </td>
-                                <td>01/10/2022 01:30 p.m</td>
-                                <td><span class="text-uppercase">abierto</span></td>
-                                <td>
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum illum earum
-                                        aliquid.
-                                    </p>
-                                </td>
-                                <td>
-                                    <a class="btn btn-success"
-                                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Ver</a>
-                                </td>
-                                <td>
-                                    Edgar <span class="bg-success-light p-1 fst-italic rounded-pill">@eprimero</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+
+                <table class="table text-center table-hover align-middle">
+                    <thead>
+                        <tr>
+                            <th class="row-1" style="width: 10px;">Ticket</th>
+                            <th class="row-2">Usuario</th>
+                            <th class="row-3">Abierto</th>
+                            <th class="row-4">Estado</th>
+                            <th class="row-5" style="width: 600px;">Falla</th>
+                            <th class="row-6">Detalles</th>
+                            <th class=" row-7">Asignado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="row-1" data-label="Ticket"><span class="fw-bold me-2">#</span>1</td>
+                            <td class="row-2" data-label="Usuario">Tania</td>
+                            <td class="row-3" data-label="Abierto">12/10/22 12:00 p.m</td>
+                            <td class="row-4 text-uppercase" data-label="Estado">Abierto</td>
+                            <td class="row-5" data-label="Falla">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Explicabo
+                                rem nobis in perferendis inventore eum molestiae ullam beatae obcaecati cum odit eius
+                                reprehenderit, hic numquam consequuntur architecto! Rem, culpa magnam!</td>
+                            <td class="row-6" data-label="Detalles"><a class="btn btn-success btn-sm">ver &raquo;</a>
+                            </td>
+                            <td class="row-7" data-label="Asignado">eprimero</td>
+                        </tr>
+                        <tr>
+                            <td class="row-1" data-label="Ticket"><span class="fw-bold me-2">#</span>2</td>
+                            <td class="row-2" data-label="Usuario">Tania</td>
+                            <td class="row-3" data-label="Abierto">12/10/22 12:00 p.m</td>
+                            <td class="row-4 text-uppercase" data-label="Estado">Abierto</td>
+                            <td class="row-5" data-label="Falla">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Explicabo
+                                rem nobis in perferendis inventore eum molestiae ullam beatae obcaecati cum odit eius
+                                reprehenderit, hic numquam consequuntur architecto! Rem, culpa magnam!</td>
+                            <td class="row-6" data-label="Detalles"><a class="btn btn-success btn-sm">ver &raquo;</a>
+                            </td>
+                            <td class="row-7" data-label="Asignado">eprimero</td>
+                        </tr>
+                        <tr>
+                            <td class="row-1" data-label="Ticket"><span class="fw-bold me-2">#</span>3</td>
+                            <td class="row-2" data-label="Usuario">Tania</td>
+                            <td class="row-3" data-label="Abierto">12/10/22 12:00 p.m</td>
+                            <td class="row-4 text-uppercase" data-label="Estado">Abierto</td>
+                            <td class="row-5" data-label="Falla">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Explicabo
+                                rem nobis in perferendis inventore eum molestiae ullam beatae obcaecati cum odit eius
+                                reprehenderit, hic numquam consequuntur architecto! Rem, culpa magnam!</td>
+                            <td class="row-6" data-label="Detalles"><a class="btn btn-success btn-sm">ver &raquo;</a>
+                            </td>
+                            <td class="row-7" data-label="Asignado">eprimero</td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </main>
         </div>
     </div>
