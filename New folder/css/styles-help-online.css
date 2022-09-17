@@ -1,0 +1,213 @@
+body {
+    color: #616161;
+}
+
+/*
+*   Colores de fondo y texto
+*/
+
+.text-ford-blue {
+    color: #003478;
+}
+
+.text-ford-gray {
+    color: #616161;
+}
+
+.bg-ford-me-blue {
+    background-color: #004B87;
+}
+
+.bg-ford-slate {
+    background-color: #dbdbdb;
+}
+
+.bg-white {
+    background-color: #f7f7f7;
+}
+
+.bg-success-light {
+    background-color: #f8f9fa;
+}
+
+
+.bg-danger-light {
+    background-color: rgb(255, 240, 240);
+}
+
+.bg-success-light {
+    background-color: #D7F8D7;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.btn-a-ford-blue {
+    background-color: #003478;
+    border: 1px solid #003478;
+    color: #f7f7f7;
+}
+
+.btn-a-ford-blue:hover {
+    background-color: #005498;
+    color: #f7f7f7;
+}
+
+.btn-a-ford-blue:active {
+    color: #f7f7f7;
+    background-color: #003478;
+    border: 1px solid #003478;
+    box-shadow: 0px 0px 1px 4px #90acd4;
+    transition: 0.1s;
+}
+
+.btn-ford-blue {
+    background-color: #003478;
+    border: 1px solid #003478;
+    color: #f7f7f7;
+}
+
+.btn-ford-blue:hover {
+    background-color: #005498;
+    color: #f7f7f7;
+}
+
+.btn-ford-blue:focus {
+    color: #f7f7f7;
+    background-color: #003478;
+    border: 1px solid #003478;
+    box-shadow: 0px 0px 1px 4px #90acd4;
+
+}
+
+/*
+* Estilos index.aspx
+*/
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 28rem;
+    margin-top: 70px;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 28rem;
+    object-fit: cover;
+}
+
+.menu-options {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.menu-options h2 {
+    font-weight: 400;
+}
+
+.menu-options .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+
+    .menu-options {
+        box-shadow: none;
+    }
+}
+
+
+/*
+    Siderbar y Navbar
+*/
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    transition: height;
+    padding-top: 50px;
+}
+
+@media (max-width: 767.98px) {
+    .sidebar {
+        top: 7rem;
+    }
+}
+
+.sidebar-sticky {
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.navbar .navbar-toggler {
+    top: .60rem;
+    right: .60rem;
+}
+
+@media (max-width: 767.98px) {
+    .container-fluid {
+        margin-bottom: 12px;
+    }
+
+    .mtb-auto {
+        margin-top: 0.60rem;
+        margin-bottom: 0.60rem;
+    }
+}
+
+
+
+/*
+    Table
+*/
+
+.table {
+    font-size: 14px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+@media (max-width: 767.98px) {
+
+    .table .row-2,
+    .table .row-3,
+    .table .row-5,
+    .table .row-7 {
+        display: none;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+}

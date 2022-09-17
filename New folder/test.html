@@ -1,0 +1,58 @@
+<div class="row" id="con-cdsid" style="display:none;">
+    <div class="col p-2 border">
+        <form class="row g-3 align-items-center">
+            <div class="col-7">
+                <label class="visually-hidden" for="cdsid">CDSID</label>
+                <div class="input-group">
+                    <div class="input-group-text">CDSID</div>
+                    <input type="text" class="form-control" id="cdsid" placeholder="Usuario">
+                </div>
+            </div>
+            <div class="mb-2">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre del Usuario">
+            </div>
+            <div class="mb-2">
+                <label for="area-soporte" class="form-label">Area de Soporte</label>
+                <select class="form-select" aria-label="area-soporte">
+                    <option selected>Selecciona un Area de Soporte ...</option>
+                    <option value="#">Help Desk</option>
+                    <option value="#">Comunicaciones</option>
+                    <option value="#">Web</option>
+                    <option value="#">PFS</option>
+                </select>
+                <div id="descripcion-area-soporte" class="form-text mt-1" style="text-align: justify;">
+                    Your password must be 8-20 characters long, contain letters and numbers,
+                    and must not contain spaces, special
+                    characters, or emoji.
+                </div>
+            </div>
+            <div class="mb-2">
+                <label for="metodo-contacto" class="form-label">Metodo de Contacto</label>
+                <div class="container text-center border p-3 rounded-2">
+                    <input class="form-check-input" type="radio" value="webex" name="metodo-contacto">
+                    <label class="form-check-label me-4" for="webex">Webex</label>
+                    <input class="form-check-input" type="radio" value="correo" name="metodo-contacto">
+                    <label class="form-check-label me-4" for="correo">Correo</label>
+                    <input class="form-check-input " type="radio" value="numero-telefono" name="metodo-contacto">
+                    <label class="form-check-label" for="numero-telefono">Numero
+                        Telefono</label>
+                </div>
+            </div>
+            <div>
+                <div class="container border rounded-2 p-2">
+                    <label for="problema" class="form-label">Problema:</label>
+                    <div>
+                        <label for="evidencia" class="form-label" style="font-size: 12px;">Adjuntar Evidencia</label>
+                        <input class="form-control form-control-sm" id="evidencia" type="file" style="font-size: 12px;">
+                    </div>
+                    <div class="form-floating mt-2">
+                        <textarea class="form-control" placeholder="Problema" id="detalles-problema"
+                            style="height: 200px"></textarea>
+                        <label for="detalles-problema">Detalles del problema</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
